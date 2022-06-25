@@ -7,7 +7,7 @@ def index():                #our view function
     return "<h1>Hello, world!</h1>" #return statement
 
 
-@app.get("/about")
+@app.get("/aboutme")
 def get_about():
     me ={
         "first_name": "Anthony",
