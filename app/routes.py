@@ -13,6 +13,7 @@ def get_about():
         "first_name": "Anthony",
         "last_name": "Lane",
         "hobbies": "Working out",
-        "active": True
+        "active": True,
+        "changes_tracked":"Hopefully"
     }
     return me
